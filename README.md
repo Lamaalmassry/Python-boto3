@@ -1,6 +1,6 @@
 # Python-boto3
 
-A collection of Python-based tools for AWS cloud automation and resource management, built for FrogTech and beyond.
+A collection of Python-based tools for AWS cloud automation and resource management.
 
 ## Introduction
 
