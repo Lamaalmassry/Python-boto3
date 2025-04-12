@@ -28,5 +28,4 @@ Whether you're a cloud engineer, DevOps professional, or enthusiast, this repo o
 ## Installation
 
 1. Clone the repository:
-   ```bash
-https://github.com/Lamaalmassry/Python-boto3.git
+   ```bash https://github.com/Lamaalmassry/Python-boto3.git
