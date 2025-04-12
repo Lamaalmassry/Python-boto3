@@ -1,0 +1,13 @@
+{
+    "Timestamp": "2025-04-12T09:38:48.911480",
+    "Region": "us-east-1",
+    "VPCs": [
+        {
+            "VPCId": "vpc-01af746b63d64f798",
+            "CidrBlock": "172.31.0.0/16",
+            "State": "available",
+            "IsDefault": true,
+            "Tags": {}
+        }
+    ]
+}
