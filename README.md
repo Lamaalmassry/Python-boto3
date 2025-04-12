@@ -22,7 +22,7 @@ Whether you're a cloud engineer, DevOps professional, or enthusiast, this repo o
 
 - Python 3.6 or higher
 - AWS CLI and credentials configured (for AWS tools)
-- Required Python libraries (listed per tool) => pip install boto3
+- Python libraries (e.g., Boto3: `pip install boto3`)
 - Appropriate IAM permissions (specific to each tool’s AWS services)
 
 ## Installation
