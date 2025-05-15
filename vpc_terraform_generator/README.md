@@ -1,4 +1,3 @@
-# README.md
 # VPC Terraform Generator
 
 ## Overview
