@@ -1,7 +1,18 @@
-import boto3
+"""VPC Terraform Generator CLI tool for managing AWS VPCs.
+
+This script provides a command-line interface to list VPCs in the us-east-1 region,
+generate Terraform configuration files for those VPCs, and delete specified VPCs.
+It uses the Boto3 SDK (third-party) to interact with AWS EC2 APIs.
+
+Example:
+    python main.py list
+    python main.py generate
+"""
 from typing import List, Dict
 from utils.vpc_functions import list_vpcs, get_vpc_details
 from utils.terraform_generator import generate_terraform_vpc
+import boto3
+
 
 def main() -> None:
     """Main function to orchestrate VPC listing and Terraform generation."""

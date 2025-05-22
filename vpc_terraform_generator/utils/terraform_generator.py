@@ -1,11 +1,15 @@
+# utils/terraform_generator.py
 from typing import List, Dict
 
 def generate_terraform_vpc(vpcs: List[Dict]) -> None:
     """
     Generate Terraform configuration file for VPCs.
-    
+
     Args:
-        vpcs: List of dictionaries containing VPC details
+        vpcs: List of dictionaries containing VPC details.
+
+    Raises:
+        IOError: If writing to the file fails.
     """
     terraform_content = """
 # Auto-generated Terraform configuration for AWS VPCs
@@ -25,5 +29,8 @@ resource "aws_vpc" "{vpc['id']}" {{
 """
         terraform_content += vpc_resource
     
-    with open('vpcs.tf', 'w') as f:
-        f.write(terraform_content)
+    try:
+        with open('vpcs.tf', 'w') as f:
+            f.write(terraform_content)
+    except IOError as e:
+        raise Exception(f"Failed to write Terraform file: {str(e)}")
