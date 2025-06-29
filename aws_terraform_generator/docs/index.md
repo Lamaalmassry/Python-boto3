@@ -33,9 +33,9 @@ icon: material/terraform
     # Install core dependencies
     pip install boto3 mkdocs mkdocs-material pymdown-extensions
 
-    # Clone the repository (replace with your repo URL)
-    git clone <repository-url>
-    cd aws_terraform_generator
+    # Clone the repository
+    git clone https://github.com/Lamaalmassry/Python-boto3.git
+    cd Python-boto3/aws_terraform_generator
 
     # Install project-specific dependencies
     pip install -r requirements.txt
