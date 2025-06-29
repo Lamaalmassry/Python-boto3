@@ -1,0 +1,19 @@
+site_name: AWS Terraform Generator Documentation
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    logo: material/terraform
+nav:
+  - Home: index.md
+  - API Reference: api.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - pymdownx.details

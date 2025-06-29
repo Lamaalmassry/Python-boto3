@@ -1,0 +1,4 @@
+boto3>=1.26.0
+mkdocs>=1.4.2
+mkdocs-material>=9.0.0
+pymdown-extensions>=9.9
